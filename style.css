@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(0.25turn, #1a7ef1, #51baf7);
+}
+.frame {
+    display: flex;
+    width: 50%;
+    height: 610px;
+    /*border: 2px dotted black;*/
+    margin: 100px auto;
+    flex-wrap: wrap;
+}
+.icon {
+    width: 140px;
+    height: 170px;
+    margin: 4px;
+    padding-top: 40px;
+    background-color: #87b4f8;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.won {
+    opacity: 0.5;
+}
+.opacityZero {
+    opacity: 0;
+}
